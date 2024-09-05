@@ -1,4 +1,4 @@
-const EventEmitter = require('events');
+import EventEmitter from 'events';
 
 // Create an instance of EventEmitter
 const eventEmitter = new EventEmitter();
@@ -9,5 +9,5 @@ eventEmitter.on('greet', (name) => {
 });
 
 // Emit the 'greet' event
-eventEmitter.emit('greet', 'Alice');  // Output: Hello, Alice!
-eventEmitter.emit('greet', 'Shant')
+eventEmitter.emit('greet', 'Alice'); 
+eventEmitter.emit('greet', 'Frank')
